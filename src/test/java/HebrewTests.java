@@ -19,8 +19,8 @@ public class HebrewTests {
     public void testFind(){
 //        WebElement element = wd.findElement(By.xpath("//h3[text()='זברה לשירותכם']"));
 //        System.out.println(element);
-//        WebElement element = wd.findElement(By.xpath("//div[@class='pace  pace-inactive']"));
-        WebElement element = wd.findElement(By.xpath("//div[@class='pace-activity']"));
+        WebElement element = wd.findElement(By.xpath("//div[@class='search-results']"));
+ //       WebElement element = wd.findElement(By.xpath("//div[@class='pace-activity']"));
         System.out.println(element);
     }
     @AfterMethod
