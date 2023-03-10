@@ -12,6 +12,19 @@ repositories {
 dependencies {
     implementation 'org.testng:testng:7.5'
     implementation 'org.seleniumhq.selenium:selenium-java:4.7.1'
+    // https://mvnrepository.com/artifact/org.slf4j/slf4j-nop
+    testImplementation group: 'org.slf4j', name: 'slf4j-nop', version: '1.6.1'
+//    implementation group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.32'
+
+//    implementation group: 'org.testng', name: 'testng', version: '7.7.1'
+//    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.8.1'
+//     implementation group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.32'
+//    compileOnly 'org.projectlombok:lombok:1.18.22'
+//    annotationProcessor 'org.projectlombok:lombok:1.18.22'
+//
+//   testCompileOnly 'org.projectlombok:lombok:1.18.16'
+//    testAnnotationProcessor 'org.projectlombok:lombok:1.18.16'
+//    implementation 'ch.qos.logback:logback-classic:1.2.8'
 }
 
 test {
