@@ -13,8 +13,8 @@ public class HebrewTests {
     @BeforeMethod
     public void preCondition(){
         wd=new ChromeDriver();
-        wd.navigate().to("https://telranedu.web.app/home");
-  //      wd.navigate().to("https://www.zebratix.com/?gclid=Cj0KCQiA-rj9BRCAARIsANB_4ACKtBcEamSd_tPOiMk1ya5uSECytwfjY2rAHNFRFXMhja-vFRYzPM0aAmIqEALw_wcB");
+   //     wd.navigate().to("https://telranedu.web.app/home");
+       wd.navigate().to("https://www.zebratix.com/?gclid=Cj0KCQiA-rj9BRCAARIsANB_4ACKtBcEamSd_tPOiMk1ya5uSECytwfjY2rAHNFRFXMhja-vFRYzPM0aAmIqEALw_wcB");
     }
     @Test
     public void testFind(){

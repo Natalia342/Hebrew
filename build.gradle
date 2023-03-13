@@ -10,10 +10,12 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.testng:testng:7.5'
-    implementation 'org.seleniumhq.selenium:selenium-java:4.7.1'
+    implementation 'org.testng:testng:7.4.0'
+    implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
+//    implementation 'org.testng:testng:7.5'
+//    implementation 'org.seleniumhq.selenium:selenium-java:4.7.1'
     // https://mvnrepository.com/artifact/org.slf4j/slf4j-nop
-    testImplementation group: 'org.slf4j', name: 'slf4j-nop', version: '1.6.1'
+ //   testImplementation group: 'org.slf4j', name: 'slf4j-nop', version: '1.6.1'
 //    implementation group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.32'
 
 //    implementation group: 'org.testng', name: 'testng', version: '7.7.1'
